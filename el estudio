@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elliot & Lynch Estudio</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #000;
+            font-family: Arial, sans-serif;
+            color: #fff;
+            text-align: center;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .logo {
+            max-width: 300px;
+            height: auto;
+        }
+        .email {
+            margin: 20px 0;
+            font-size: 1.2em;
+        }
+        .social-buttons {
+            display: flex;
+            gap: 20px;
+        }
+        .social-buttons a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 1.5em;
+            transition: color 0.3s;
+        }
+        .social-buttons a:hover {
+            color: #ccc;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="Logo final E.L.jpg" alt="Elliot & Lynch Logo" class="logo">
+        <div class="email">elestudio@sentidoba.com</div>
+        <div class="social-buttons">
+            <a href="https://www.instagram.com/elliotlynch_estudio/?utm_source=ig_web_button_share_sheet" target="_blank">Instagram</a>
+            <a href="https://www.facebook.com/elliotlynch_estudio" target="_blank">Facebook</a>
+        </div>
+    </div>
+</body>
+</html>
